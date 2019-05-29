@@ -9,14 +9,16 @@ TN:Avengers
 CL:{#Covert#}
 AT:2
 CO:3
-E:{#Covert#}: You may KO a card from your hand or discard pile. If you do, rescue a Bystander.
+EF:
+{#Covert#}: You may KO a card from your hand or discard pile. If you do, rescue a Bystander.
 
 QT:5
 CN:Mission Accomplished
 TN:Avengers
 CL:{#Tech#}
 CO:2
-E:Draw a card.
+EF:
+Draw a card.
 {#Tech#}: Rescue a Bystander.
 
 QT:3
@@ -24,7 +26,8 @@ CN:Covert Operation
 CL:{#Covert#}
 AT:0+
 CO:4
-E:You get +1 Attack for each Bystander in your Victory pile.
+EF:
+You get +1 Attack for each Bystander in your Victory pile.
 
 QT:1Silent Sniper
 {#Covert#}
@@ -34,10 +37,10 @@ Cost: 7
 
 
 HN:Captain America
-Avengers
+{#avengers#}
 
-[i]Avengers Assemble![/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+[i]{#avengers#} Assemble![/i] (5 copies)
+{#instinct#}
 0+ Recruit
 You get +1 Recruit for each color of Hero you have.
 Cost: 3
@@ -57,7 +60,7 @@ Cost: 6
 [i]A Day Unlike Any Other[/i] (1 copy)
 {#Covert#}
 3+ Attack
-Avengers: You get +3 Attack for each other Avengers Hero you played this turn.
+{#avengers#}: You get +3 Attack for each other {#avengers#} Hero you played this turn.
 Cost: 7
 
 
@@ -108,13 +111,13 @@ You get +1 Attack for each other Hero with an odd-numbered Cost you played this 
 Cost: 5
 
 [i]Hey, Can I Get a Do-Over?[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
 If this is the first Hero you played this turn, you may discard the rest of your hand and draw four cards.
 Cost: 3
 
 [i]Random Acts of Unkindness[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 6 Attack
 You may gain a Wound to your hand. Then each player passes a card from their hand to the player on their left.
 Cost: 7
@@ -138,7 +141,7 @@ Cost: 4
 [size=8][i]Emma's days as a Villain are behind here...aren't they?[/i][/size]
 
 [i]Psychic Link[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3 Attack
 Each player may reveal another X-Men Hero. Each player who does draws a card.
 Cost: 5
@@ -167,24 +170,24 @@ Draw two cards. Then put a card from your hand on top of your deck.
 Cost: 2
 
 [i]Hypnotic Charm[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
 Reveal the top card of your deck. Discard it or put it back.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Do the same thing to each other player's deck.
+{#instinct#}: Do the same thing to each other player's deck.
 Cost: 3
 
 [i]High Stakes Jackpot[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 4+ Attack
 Reveal the top card of your deck. You get + Attack equal to that card's cost.
 Cost: 7
 
 
 HN:Hawkeye
-Avengers
+{#avengers#}
 
 [i]Quick Draw[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1 Attack
 Draw a card.
 Cost: 3
@@ -193,7 +196,7 @@ Cost: 3
 [i]Team Player[/i] (5 copies)
 {#Tech#}
 2+ Attack
-Avengers: You get +1 Attack.
+{#avengers#}: You get +1 Attack.
 Cost: 4
 [size=8][i]"You line 'em up, and I'll knock 'em down..."[/i][/size]
 
@@ -211,7 +214,7 @@ Cost: 7
 
 
 HN:Hulk
-Avengers
+{#avengers#}
 
 [i]Growing Anger[/i] (5 copies)
 {#Strength#}
@@ -222,7 +225,7 @@ Cost: 3
 [size=8][i]3D alt art flavor text: You won't like me when I'm angry.[/i][/size]
 
 [i]Unstoppable Hulk[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
 You may KO a Wound from your hand or discard pile. If you do, you get +2 Attack.
 Cost: 4
@@ -243,7 +246,7 @@ Cost: 8
 
 
 HN:Iron Man
-Avengers
+{#avengers#}
 
 [i]Endless Invention[/i] (5 copies)
 {#Tech#}
@@ -337,7 +340,7 @@ Reveal the top card of your deck. If that card costs 2 or less, draw it.
 Cost: 2
 
 [i]Great Responsibility[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1 Attack
 Reveal the top card of your deck. If that card costs 2 or less, draw it.
 Cost: 2
@@ -385,7 +388,7 @@ Cost: 7
 
 
 HN:Thor
-Avengers
+{#avengers#}
 
 [i]Odinson[/i] (5 copies)
 {#Strength#}
@@ -421,30 +424,30 @@ HN:Wolverine
 X-Men
 
 [i]Healing Factor[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
 You may KO a Wound from your hand or discard pile. If you do, draw a card.
 Cost: 3
 
 [i]Keen Senses[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1 Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Draw a card.
+{#instinct#}: Draw a card.
 Cost: 2
 [size=8][i]The only thing scarier than Wolverine tracking you is Wolverine finding you.[/i][/size]
 
 [i]Frenzied Slashing[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Draw two cards.
+{#instinct#}: Draw two cards.
 Cost: 5
 [size=8][i]Some villains get torn apart by guilt. Others get torn apart by Wolverine.[/i][/size]
 
 [i]Berserker Rage[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Attack
 Draw three cards.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +1 Attack for each extra card you've drawn this turn.
+{#instinct#}: You get +1 Attack for each extra card you've drawn this turn.
 Cost: 8
 
 
@@ -466,7 +469,7 @@ Draw two cards, then discard a card.
 Cost: 3
 
 [i]Drop Off a Friend[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
 You may discard a card. You get + Attack equal to that card's Cost.
 Cost: 5
@@ -535,7 +538,7 @@ Whenever you defeat a Villain in the Sewers or Rooftops this turn, draw two card
 Cost: 6
 
 [i]Vampiric Surge[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Attack
 You get +1 Attack for each Villain in your Victory Pile.
 Cost: 7
@@ -613,7 +616,7 @@ When you play Backflip, the next Hero you recruit this turn goes on top of your 
 Cost: 3
 
 [i]Radar Sense[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
 Choose a number, then reveal the top card of your deck. If the card is that Cost, you get +2 Attack.
 Cost: 4
@@ -625,7 +628,7 @@ Choose a number, then reveal the top card of your deck. If the card is that Cost
 Cost: 6
 
 [i]The Man Without Fear[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 7 Attack
 Choose a number, then reveal the top card of your deck. If the card is that Cost, draw it and repeat this process.
 Cost: 8
@@ -644,7 +647,7 @@ X-Force: [b]Versatile 1[/b]
 Cost: 1
 
 [i]Ready for Anything[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Recruit
 0+ Attack
 [b]Versatile 2[/b]
@@ -677,7 +680,7 @@ If this is the first card you played this turn, you get +1 Attack.
 Cost: 1
 
 [i]Ninjitsu[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Recruit
 Draw a card.
 {#Covert#}: You get +2 Recruit.
@@ -685,13 +688,13 @@ Cost: 2
 [size=8][i]Zen is the absence of motion. Ninjitsu, the absence of stillness.[/i][/size]
 
 [i]Sai Blades[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 4+ Attack
 You get +1 Attack for each Hero you played this turn that costs 1 or 2.
 Cost: 6
 
 [i]Silent Meditation[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 5+ Recruit
 When you play Silent Meditation, the next Hero you recruit this turn goes into your hand.
 Marvel Knights: You get +2 Recruit.
@@ -795,7 +798,7 @@ HN:Iron Fist
 Marvel Knights
 
 [i]Focus Chi[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Recruit
 You get +1 Recruit for each Hero with a different Cost you have.
 Cost: 3
@@ -855,7 +858,7 @@ HN:Nightcrawler
 X-Men
 
 [i]Bamf![/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
 [b]Teleport[/b]
 Cost: 3
@@ -869,9 +872,9 @@ Cost: 4
 [size=8][i]Sometimes it is best to hide now and fight later.[/i][/size]
 
 [i]Swashbuckler[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3+ Attack
-{#Covert#}, [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +3 Attack.
+{#Covert#}, {#instinct#}: You get +3 Attack.
 Cost: 5
 [size=8][i]Chivalry wears blue fur.[/i][/size]
 
@@ -887,10 +890,10 @@ HN:Professor X
 X-Men
 
 [i]Class Dismissed[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
 You may put a Hero from the HQ on the bottom of the Hero Deck.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You may KO a card from your hand or discard pile.
+{#instinct#}: You may KO a card from your hand or discard pile.
 Cost: 3
 [size=8][i]"What do they call you? Wheels?"[/i][/size]
 
@@ -949,10 +952,10 @@ HN:Wolverine
 X-Force
 
 [i]Animal Instincts[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Attack
 Draw a card.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +2 Attack.
+{#instinct#}: You get +2 Attack.
 Cost: 2
 [size=8][i]To avoid injury, it's best to keep a distance from Wolverine of at least 5,000 miles.[/i][/size]
 
@@ -980,7 +983,7 @@ HN:Human Torch
 Fantastic Four
 
 [i]Call for Backup[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Recruit
 You may KO a Wound from your hand or discard pile. If you do, you get +1 Recruit.
 Cost: 3
@@ -1054,7 +1057,7 @@ Cost: 5
 [size=8][i]Reed Richards has an idea for a new costume material, but it's a stretch.[/i][/size]
 
 [i]One Gigantic Hand[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1+ Attack
 Fantastic Four: You get +1 Attack for each card in your hand.
 Cost: 5
@@ -1105,7 +1108,7 @@ HN:Thing
 Fantastic Four
 
 [i]It Started on Yancy Street[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Recruit
 Fantastic Four: You get +2 Recruit.
 Cost: 3
@@ -1156,7 +1159,7 @@ Cost: 1
 [size=8][i]Art contains a gun[/i][/size]
 
 [i]Jinx[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3 Attack
 Each player reveals the top card of their deck. Choose any number of those cards to be discarded.
 Cost: 5
@@ -1177,12 +1180,12 @@ Marvel Knights
 {#Tech#}
 2+ Recruit
 [b]Wall-Crawl[/b]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +1 Recruit.
+{#instinct#}: You get +1 Recruit.
 Cost: 3
 [size=8][i]Criminals feel the cold light of the moon on their sins...but they never think to look up.[/i][/size]
 
 [i]Lunar Communion[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
 [b]Wall-Crawl[/b]
 Whenever you defeat a Villain on the Rooftops this turn, you may KO one of your cards or a card from your discard pile.
@@ -1191,12 +1194,12 @@ Cost: 3
 [i]Crescent Moon Darts[/i] (3 copies)
 {#Tech#}
 3 Attack
-Reveal the top card of your deck. If it's [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR] or {#Tech#}, draw it.
+Reveal the top card of your deck. If it's {#instinct#} or {#Tech#}, draw it.
 Cost: 5
 [size=8][i]Villains face the crescent moon's judgment. Then they get the crescent moon's judgment in their face.[/i][/size]
 
 [i]Golden Ankh of Khonshu[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 6 Attack
 Whenever you defeat a Villain on the Rooftops this turn, rescue Bystanders equal to that Villain's printed VP.
 {#Tech#}: You may move a Villain to the Rooftops. If another Villain is already there, swap them.
@@ -1214,7 +1217,7 @@ Spider Friends: Draw a card.
 Cost: 2
 
 [i]Perfect Hunter[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1 Attack
 [b]Wall-Crawl[/b]
 Draw a card.
@@ -1225,7 +1228,7 @@ Cost: 4
 {#Covert#}
 3+ Attack
 [b]Wall-Crawl[/b]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +2 Attack.
+{#instinct#}: You get +2 Attack.
 Cost: 6
 [size=8][i]A life of chaos lends Scarlet Spider an unpredictability that opponents can't escape.[/i][/size]
 
@@ -1281,7 +1284,7 @@ Reveal the top card of your deck. If it costs 1 or 2, you get +2 Attack.
 Cost: 2
 
 [i]Spider-Sense Tingling[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Reveal the top two cards of your deck. Put any that cost 2 or less into your hand. Put the rest back in any order.
 Cost: 2
 
@@ -1308,12 +1311,12 @@ Crime Syndicate
 [i]Everything's A Weapon[/i] (5 copies)
 {#ranged#}
 2 Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Draw a card.
+{#instinct#}: Draw a card.
 Cost: 3
 [size=8][i]"And for my next trick..."[/i][/size]
 
 [i]Fulfill The Contract[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Recruit
 [b]Dodge[/b]
 Choose an Adversary Group. You get +1 Recruit for each Adversary in your Victory Pile from that Adversary Group.
@@ -1382,7 +1385,7 @@ You get +3 Attack usable only against Adversaries in the Bank.
 Cost: 3
 
 [i]Supercharge[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
 You get +1 Attack for each card you discarded this turn.
 Cost: 5
@@ -1443,7 +1446,7 @@ If you discarded any cards this turn, you get +2 Attack.
 Cost: 3
 
 [i]Unstable Kidnapper[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3 Recruit
 [b]Dodge[/b]
 If you discarded any cards this turn, kidnap a Bystander.
@@ -1516,7 +1519,7 @@ HN:Kraven
 Sinister Six
 
 [i]Ceaseless Tracker[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1+ Recruit
 [b]Dodge[/b]
 Sinister Six: You get +2 Recruit.
@@ -1537,7 +1540,7 @@ Choose an Adversary and a direction. Move that Adversary as many adjacent, empty
 Cost: 5
 
 [i]He's the Best Around[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Attack
 You get + Attack equal to the Cost of the highest-cost Ally in the Lair.
 Cost: 8
@@ -1628,7 +1631,7 @@ You get +1 Attack for each color of Ally in the Lair.
 Cost: 5
 
 [i]False Reflection[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Recruit
 0+ Attack
 Put a card from the Lair on the bottom of the Ally Deck. You get + Recruit equal to that card's printed Recruit and + Attack equal to its printed Attack.
@@ -1642,7 +1645,7 @@ Brotherhood
 [i]Hidden Weapons[/i] (5 copies)
 {#Tech#}
 2+ Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#Tech#}: You get +3 Attack.
+{#instinct#}, {#Tech#}: You get +3 Attack.
 Cost: 4
 [size=8][i]Mystique is definitely a dual threat.[/i][/size]
 [size=8][i]Art contains a gun[/i][/size]
@@ -1655,7 +1658,7 @@ As you play this card, you may choose a class. This card is that class instead o
 Cost: 3
 
 [i]Turn the Tide[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Reveal the top card of the Ally Deck. You may play a copy of that card this turn. When you do, put that card on the bottom of the Ally Deck.
 Cost: 4
 
@@ -1670,13 +1673,13 @@ HN:Sabretooth
 Brotherhood
 
 [i]Leap of the Tiger[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
-Reveal the top card of your deck, then put it back on top of your deck or into your discard pile. If that card was an [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR] Ally, you get +2 Attack.
+Reveal the top card of your deck, then put it back on top of your deck or into your discard pile. If that card was an {#instinct#} Ally, you get +2 Attack.
 Cost: 3
 
 [i]Take One for the Team[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1 Recruit
 Reveal the top card of your deck. If it's a Brotherhood Ally, you may draw it. Otherwise, you may KO it.
 Cost: 4
@@ -1689,8 +1692,8 @@ Cost: 2
 [i]Upper Hand[/i] (1 copy)
 {#Strength#}
 4+ Attack
-Each player reveals a [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR] Ally or reveals the top card of their deck. Choose any number of those revealed top cards to be KO'd.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +1 Attack for each card KO'd this turn.
+Each player reveals a {#instinct#} Ally or reveals the top card of their deck. Choose any number of those revealed top cards to be KO'd.
+{#instinct#}: You get +1 Attack for each card KO'd this turn.
 Cost: 7
 
 
@@ -1729,7 +1732,7 @@ HN:Venom
 Sinister Six
 
 [i]Devour[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
 You may KO a Bystander from your Victory Pile. If you do, you get +2 Attack.
 Cost: 4
@@ -1749,11 +1752,11 @@ Each Adversary with a 4 Attack or more guards a Bystander.
 Cost: 6
 
 [i]Ravenous Greed[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Recruit
 5 Attack
-Each other player reveals an [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR] Ally or KOs a Bystander from their Victory Pile.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Kidnap all Bystanders that were KO'd this turn. Then you get +1 Recruit for each Bystander you kidnapped this turn.
+Each other player reveals an {#instinct#} Ally or KOs a Bystander from their Victory Pile.
+{#instinct#}: Kidnap all Bystanders that were KO'd this turn. Then you get +1 Recruit for each Bystander you kidnapped this turn.
 Cost: 7
 
 
@@ -1770,20 +1773,20 @@ Once per turn, you get +1 Attack.
 Cost: 3
 
 [i]Interstellar Tracker[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
 Look at the top card of your deck. Discard it or put it back.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You may KO the card you discarded this way.
+{#instinct#}: You may KO the card you discarded this way.
 Cost: 3
 
 [i]The Destroyer[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 4 Attack
-Guardians of the Galaxy: Each other player reveals an [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR] Hero or discards an [b]Artifact[/b] they control. For each [b]Artifact[/b] discarded this way, you gain a Shard.
+Guardians of the Galaxy: Each other player reveals an {#instinct#} Hero or discards an [b]Artifact[/b] they control. For each [b]Artifact[/b] discarded this way, you gain a Shard.
 Cost: 6
 
 [i]Avatar of Destruction[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Double the Attack you have.
 Cost: 7
 
@@ -1798,7 +1801,7 @@ A Villain gains a Shard.
 Cost: 2
 
 [i]Deadliest Woman in the Universe[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Gain two Shards.
 {#Covert#}: Gain another Shard.
 Cost: 3
@@ -1863,7 +1866,7 @@ Guardians of the Galaxy: You gain a Shard for each other Guardians of the Galaxy
 Cost: 4
 
 [i]Incoming Detector[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Artifact -[/b]
 Whenever a Master Strike or Villain's Ambush ability is completed, you may gain a Shard.
 Cost: 4
@@ -1912,7 +1915,7 @@ HN:Greithoth, Breaker of Wills
 Foes of Asgard
 
 [i]Mace of Chains[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Thrown Artifact[/b]
 When you throw this, you get +2 Recruit.
 Cost: 3
@@ -1988,7 +1991,7 @@ When you throw this, you get +3 Attack, usable only against Adversaries on the B
 Cost: 5
 
 [i]Break Their Loyalties[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 5 Attack
 Foes of Asgard: Each other player reveals their hand. Choose a New Recruit or Madame HYDRA from each of those players' hands and put them into your hand.
 Cost: 7
@@ -2004,7 +2007,7 @@ Foes of Asgard
 Cost: 3
 
 [i]Otherworldly Mace[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Thrown Artifact[/b]
 When you throw this, you get +2 Attack for each {#Strength#} Ally you played this turn.
 Cost: 4
@@ -2056,9 +2059,9 @@ HN:Skirn, Breaker of Men
 Foes of Asgard
 
 [i]Towering Leader[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Gain two New Recruits.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Gain a third New Recruit.
+{#instinct#}: Gain a third New Recruit.
 Cost: 3
 [size=8][i]It's easy to look up to a leader like Skirn. About 50 feet up.[/i][/size]
 
@@ -2149,7 +2152,7 @@ HN:Black Panther
 Illuminati
 
 [i]Catlike Reflexes[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#Covert#}
+{#instinct#}, {#Covert#}
 1 Recruit
 Draw a card.
 Cost: 3
@@ -2170,14 +2173,14 @@ Cost: 6
 [size=8][i]Art contains a gun[/i][/size]
 
 [i]King of Wakanda[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#Tech#}
+{#instinct#}, {#Tech#}
 Gain three sidekicks.
 Illuminati: Put them on top of your deck.
 Cost: 7
 
 
 HN:Captain Marvel
-Avengers
+{#avengers#}
 
 [i]Absorb Energies[/i] (5 copies)
 {#ranged#}
@@ -2219,15 +2222,15 @@ Cost: 4
 [size=8][i]"By the Hoary Hosts of Hoggoth!"[/i][/size]
 
 [i]Trust Me, I'm a Doctor [/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#ranged#}
+{#instinct#}, {#ranged#}
 1+ Recruit
 Illuminati: You may KO a card from your hand or discard pile. If you do, you get +1 Recruit.
 Cost: 2
 
 [i]Fight the Future[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3+ Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Reveal the top card of the Villain Deck. If it's a Villain, you get +2 Attack and may fight that Villain this turn.
+{#instinct#}: Reveal the top card of the Villain Deck. If it's a Villain, you get +2 Attack and may fight that Villain this turn.
 Cost: 5
 
 [i]Sorcerer Supreme[/i] (1 copy)
@@ -2237,7 +2240,7 @@ Cost: 7
 
 
 HN:Lady Thor
-Avengers
+{#avengers#}
 
 [i]Mysterious Origin[/i] (5 copies)
 {#ranged#}
@@ -2336,9 +2339,9 @@ HN:Namor, the Sub-Mariner
 Cabal
 
 [i]Lead the Armies of Atlantis[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Gain a Sidekick.
+{#instinct#}: Gain a Sidekick.
 Cost: 3
 
 [i]Ruler of the Seas[/i] (5 copies)
@@ -2349,7 +2352,7 @@ Cost: 4
 [size=8][i]Namor is lord of two-thirds of the Earth: all the watery bits.[/i][/size]
 
 [i]Feed the Sharks[/i] (3 copies)
-{#Strength#}, [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#Strength#}, {#instinct#}
 2 Attack
 You may KO a card from your hand or discard pile. If you do, draw a card.
 Cost: 6
@@ -2357,7 +2360,7 @@ Cost: 6
 [i]Imperius Rex[/i] (1 copy)
 {#Strength#}
 Defeat a Villain for free.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#Strength#}, {#Strength#}: Instead, defeat the Mastermind once for free.
+{#instinct#}, {#instinct#}, {#Strength#}, {#Strength#}: Instead, defeat the Mastermind once for free.
 Cost: 7
 
 
@@ -2365,26 +2368,26 @@ HN:Old Man Logan
 X-Men
 
 [i]Last Survivor[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You may KO a card from your hand or discard pile. If you KO a wound this way, draw a card.
+{#instinct#}: You may KO a card from your hand or discard pile. If you KO a wound this way, draw a card.
 Cost: 3
 
 [i]Loner[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#Covert#}
+{#instinct#}, {#Covert#}
 2+ Attack
 If you don't recruit any heroes this turn, you get +2 Attack.
 Cost: 5
 [size=8][i]In this parallel dimension, all the Heroes are dead, and now the world has been carved up by Villains.[/i][/size]
 
 [i]Rage Out[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3+ Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: [b]Cross-Dimensional Wolverine Rampage[/b]. For each other player who gained a Wound this way, you get +1 Attack.
+{#instinct#}: [b]Cross-Dimensional Wolverine Rampage[/b]. For each other player who gained a Wound this way, you get +1 Attack.
 Cost: 6
 
 [i]No More Heroes[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 5+ Attack
 Reveal your hand. You get +5 Attack if you haven't played any S.H.I.E.L.D. or HYDRA cards this turn and don't have any in your hand.
 Cost: 7
@@ -2394,13 +2397,13 @@ HN:Proxima Midnight
 Cabal
 
 [i]Inspiration Through Power[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#Covert#}
+{#instinct#}, {#Covert#}
 1 Recruit
 1 Attack
 Cost: 2
 
 [i]Master Combatant[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Recruit
 0+ Attack
 If the most recent Hero you have played this turn has a Recruit icon, you get +2 Recruit. If it has an Attack icon, you get +2 Attack.
@@ -2410,12 +2413,12 @@ Cost: 4
 {#Covert#}
 0+ Recruit
 3 Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +3 Recruit.
+{#instinct#}: You get +3 Recruit.
 Cost: 5
 [size=8][i]Proxima rose through the ranks of Thanos' army with brutal effectiveness.[/i][/size]
 
 [i]Supernova Spear[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 4+ Recruit
 4+ Attack
 {#Covert#}: You get +4 Recruit and +4 Attack.
@@ -2484,7 +2487,7 @@ HN:Ultimate Spider-Man
 Spider Friends
 
 [i]Marvel Team-Up[/i] (5 copies)
-{#Strength#}, [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#Strength#}, {#instinct#}
 Gain a Sidekick.
 Reveal the top card of your deck. If it costs 2 or less, draw it.
 Cost: 2
@@ -2526,7 +2529,7 @@ Cost: 2
 [size=8][i]Art contains a gun[/i][/size]
 
 [i]Government Payroll[/i] (5 copies)
-{#Strength#}, [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#Strength#}, {#instinct#}
 0+ Recruit
 0+ Attack
 [b]Wall-Crawl[/b]
@@ -2534,7 +2537,7 @@ Cost: 2
 Cost: 3
 
 [i]Big Slimeportunity[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
 2 Attack
 [b]Wall-Crawl[/b]
@@ -2572,14 +2575,14 @@ Cost: 3
 [size=8][i]A Quiver of Thunderbolts is quite unorthodox but totally awesome.[/i][/size]
 
 [i]Warlord of Open Spaces[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3+ Attack
 [b]Patrol two adjacent city spaces[/b]:
 If they're both empty, you get +1 Attack.
 Cost: 5
 
 [i]Lord of Dragons[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Recruit
 0+ Attack
 [b]Patrol the Rooftops[/b]: If it's empty, you get +4 Recruit and +4 Attack. If it's not, defeat the Villain there for free.
@@ -2628,14 +2631,14 @@ Cabal
 Cost: 3
 
 [i] Witness the End[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You may KO a card from your hand or discard pile. If you do, draw a card.
+{#instinct#}: You may KO a card from your hand or discard pile. If you do, draw a card.
 Cost: 5
 [size=8][i]Black Swan foretold the Incursions that destroyed the old universe.[/i][/size]
 
 [i]Dark Foretelling[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#ranged#}
+{#instinct#}, {#ranged#}
 4 Attack
 Reveal the top three cards of the Villain Deck. Rescue any Bystanders you revealed, then put the rest back in any order.
 Cost: 6
@@ -2649,7 +2652,7 @@ Cost: 7
 
 
 HN:The Captain and the Devil 
-Avengers
+{#avengers#}
 
 [i]Jurassic America [/i] (5 copies)
 {#Strength#}, {#Tech#}
@@ -2659,7 +2662,7 @@ Cost: 2
 [size=8][i]When you gotta go, you gotta go.[/i][/size]
 
 [i]Patriotic Chomp[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
 [b]Spectrum[/b]: You get +2 Attack.
 Cost: 4
@@ -2711,14 +2714,14 @@ HN:Corvus Glaive
 Cabal
 
 [i]Culling Blade[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
 KO a Bystander from the Bystander Deck. If it's a Special Bystander, you may use its Rescue effect.
 Cost: 3
 [size=8][i]A sculptor with a scalpel...A rather enormous scalpel.[/i][/size]
 
 [i]Let None Escape You[/i] (5 copies)
-{#Strength#}, [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#Strength#}, {#instinct#}
 0+ Recruit
 0+ Attack
 [b]Patrol the Escape Pile[/b]: If there are none Bystanders in it, you get +2 Attack. Otherwise, you get +2 Recruit.
@@ -2777,7 +2780,7 @@ HN:Elsa Bloodstone
 S.H.I.E.L.D.
 
 [i]Bloodstone Pendant[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Recruit
 [b]Spectrum[/b]: You may KO a card from your hand or discard pile. If you do, you get +1 Recruit.
 Cost: 5
@@ -2823,7 +2826,7 @@ KO this card. Gain a hero from the S.H.I.E.L.D. Office stack or HQ that costs 4 
 Cost: 3
 
 [i]Rise from the Ashes[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#ranged#}
+{#instinct#}, {#ranged#}
 3 Attack
 Gain a Hero that was KO'd this turn.
 Cost: 6
@@ -2873,13 +2876,13 @@ HN:Shang-Chi
 Marvel Knights
 
 [i]Shuffling Footwork [/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You may shuffle your discard pile into your deck.
+{#instinct#}: You may shuffle your discard pile into your deck.
 Cost: 3
 
 [i]Acrobatic Kung-Fu[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#Covert#}
+{#instinct#}, {#Covert#}
 2+ Attack
 [b]Wall-Crawl[/b]
 [b]Patrol the Rooftops[/b]: If it's empty, you get +1 Attack.
@@ -2892,7 +2895,7 @@ Cost: 4
 Cost: 5
 
 [i]Muscle Memory[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 5 Attack
 [b]Wall-Crawl[/b]
 Any time you are shuffling your deck with this card in it, you may set this card aside and put it on top of your deck at the end of the shuffle.
@@ -2910,7 +2913,7 @@ Cost: 2
 [size=8][i]Cindy Moon was bitten by the same radioactive spider as Peter Parker.[/i][/size]
 
 [i]Cascading Maneuver[/i] (5 copies)
-{#Strength#}, [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#Strength#}, {#instinct#}
 1 Attack
 [b]Wall-Crawl[/b]
 [b]Spectrum[/b]: Draw a card.
@@ -2952,7 +2955,7 @@ Cost: 4
 Cost: 6
 
 [i]Rescue My Family from Hell[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 5 Attack
 X-Men: You may gain an X-Men Hero from the HQ or the KO pile to your hand.
 Cost: 7
@@ -2963,7 +2966,7 @@ HN:Spider-Gwen
 Spider Friends
 
 [i]Fateful Bridge[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR], {#Tech#}
+{#instinct#}, {#Tech#}
 2 Attack
 [b]Patrol the Bridge[/b]: If it's empty, reveal the top card of your deck. If that card costs 2 or less, draw it.
 Cost: 2
@@ -3000,7 +3003,7 @@ X-Men
 Cost: 3
 
 [i]Bridge to a Better Future[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Patrol the Bridge[/b]: If it's empty, then when you draw a new hand of cards at the end of this turn, draw an extra card.
 Cost: 4
 
@@ -3047,7 +3050,7 @@ Choose one: Gain a S.H.I.E.L.D. Officer, or you get +2 Attack.
 Cost: 4
 
 [i]Mobilize for War[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 4+ Attack
 KO up to two S.H.I.E.L.D. Heroes from your hand and/or discard pile.
 [b]Savior[/b]: For each card KO'd this way, you get +1 Attack.
@@ -3055,12 +3058,12 @@ Cost: 7
 
 
 HN:Captain America (Falcon)
-Avengers
+{#avengers#}
 
 [i]Aerial Catch[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Rescue a Bystander.
+{#instinct#}: Rescue a Bystander.
 Cost: 3
 [size=8][i]People saved by his midair rescues call him an Angel, but that name's already taken.[/i][/size]
 
@@ -3087,7 +3090,7 @@ Cost: 7
 
 
 HN:Captain America 1941
-Avengers
+{#avengers#}
 
 [i]Devoted Patriot[/i] (5 copies)
 {#Strength#}
@@ -3106,12 +3109,12 @@ Cost: 5
 [i]Liberate the Prisoners[/i] (3 copies)
 {#Covert#}
 3 Attack
-Avengers: Rescue a Bystander
+{#avengers#}: Rescue a Bystander
 Cost: 6
 [size=8][i]"The one you save today saves you tomorrow."[/i][/size]
 
 [i]Punch Evil in the Face[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 5 Attack
 [b]Savior[/b]: [b]Man Out of Time[/b]
 Cost: 8
@@ -3129,7 +3132,7 @@ You get +1 Recruit for each Hero Class you have.
 Cost: 3
 
 [i]Reassign to Civilian Duty[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
 S.H.I.E.L.D., S.H.I.E.L.D., S.H.I.E.L.D.: You may KO a S.H.I.E.L.D. Hero that you played this turn. If you do, rescue a Bystander.
 Cost: 5
@@ -3188,7 +3191,7 @@ Cost: 7
 ST:Civil War
 
 HN:Captain America, Secret Avenger
-Avengers
+{#avengers#}
 
 [i]Bold Leadership[/i] (5 copies)
 {#Covert#}
@@ -3199,35 +3202,35 @@ Cost: 2
 
 [i]Inspire a Nation/Inspire a Man[/i] (5 copies)
 [b]Divided[/b]
-[i]Inspire a Nation (Captain America, Secret Avenger: Avengers)[/i]
+[i]Inspire a Nation (Captain America, Secret Avenger: {#avengers#})[/i]
 {#Strength#}
 Gain a Sidekick.
 Cost: 3
 -----------------
-[i]Inspire a Man (Captain America, Secret Avenger: Avengers)[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+[i]Inspire a Man (Captain America, Secret Avenger: {#avengers#})[/i]
+{#instinct#}
 2 Attack
 Cost: 3
 
-[i]Secret Avengers Assemble![/i] (3 copies)
+[i]Secret {#avengers#} Assemble![/i] (3 copies)
 {#Tech#}
 2+ Attack
-You get +1 Attack for each Sidekick and other Avengers Hero you played this turn.
+You get +1 Attack for each Sidekick and other {#avengers#} Hero you played this turn.
 Cost: 5
 
 [i]Freedom Never Dies[/i] (1 copy)
 {#ranged#}
 5 Attack
-Whenever you play a Sidekick or another Avengers Hero this turn set that card aside. At the end of your turn, put those cards on the bottom of your deck in random order before you draw your new hand.
+Whenever you play a Sidekick or another {#avengers#} Hero this turn set that card aside. At the end of your turn, put those cards on the bottom of your deck in random order before you draw your new hand.
 Cost: 7
 
 
 HN:Cloak & Dagger
-Avengers/Marvel Knights
+{#avengers#}/Marvel Knights
 
 [i]Above/Below[/i] (5 copies)
 [b]Divided[/b]
-[i]Above (Cloak: Avengers)[/i]
+[i]Above (Cloak: {#avengers#})[/i]
 {#Covert#}
 2 Attack
 Cost: 3
@@ -3240,7 +3243,7 @@ Cost: 3
 
 [i]Flee/Fight[/i] (5 copies)
 [b]Divided[/b]
-[i]Flee (Cloak: Avengers)[/i]
+[i]Flee (Cloak: {#avengers#})[/i]
 {#Covert#}
 2+ Recruit
 [b]Phasing[/b]
@@ -3256,7 +3259,7 @@ Cost: 4
 
 [i]Darkness/Light[/i] (3 copies)
 [b]Divided[/b]
-[i]Darkness (Cloak: Avengers)[/i]
+[i]Darkness (Cloak: {#avengers#})[/i]
 {#Covert#}
 3 Attack
 {#Covert#}: Reveal the top card of your deck. If it costs 0, KO it.
@@ -3276,10 +3279,10 @@ Cost: 7
 
 
 HN:Daredevil
-Avengers/Marvel Knights
+{#avengers#}/Marvel Knights
 
 [i]Dual Existence[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Look at the top two cards of your deck. Draw one and put the other back.
 Cost: 2
 [size=8][i]In the Civil War, Danny Rand secretly donned Daredevil's costume and his mission.[/i][/size]
@@ -3293,8 +3296,8 @@ Cost: 4
 
 [i]Hidden Identity/Revealed Identity[/i] (3 copies)
 [b]Divided[/b]
-[i]Hidden Identity (Daredevil: Avengers)[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+[i]Hidden Identity (Daredevil: {#avengers#})[/i]
+{#instinct#}
 3 Recruit
 The next Hero you recruit this turn goes on top of your deck.
 Cost: 6
@@ -3308,12 +3311,12 @@ Cost: 6
 [i]Master of Martial Arts[/i] (1 copy)
 {#Covert#}
 4+ Attack
-Avengers: Discard the top two cards of your deck. If they have different costs, you get +2 Attack, then repeat this process.
+{#avengers#}: Discard the top two cards of your deck. If they have different costs, you get +2 Attack, then repeat this process.
 Cost: 8
 
 
 HN:Falcon
-Avengers
+{#avengers#}
 
 [i]Rapid Reinforcements[/i] (5 copies)
 {#Tech#}
@@ -3324,14 +3327,14 @@ Cost: 3
 
 [i]Talk with Birds/Squawk Back[/i] (5 copies)
 [b]Divided[/b]
-[i]Talk with Birds (Falcon: Avengers)[/i]
+[i]Talk with Birds (Falcon: {#avengers#})[/i]
 {#ranged#}
 2 Attack
 {#ranged#}: Gain a Sidekick.
 Cost: 4
 -----------------
-[i]Squawk Back (Redwing: Avengers)[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+[i]Squawk Back (Redwing: {#avengers#})[/i]
+{#instinct#}
 Look at the top three cards of your deck. Draw one. Put the rest back in any order.
 Cost: 4
 
@@ -3343,14 +3346,14 @@ Cost: 6
 [size=8][i]He likes to get a bird's eye view.[/i][/size]
 
 [i]Fly in a Friend[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 4+ Attack
-Avengers: You get +Attack equal to the printed Attack of a Hero in the HQ.
+{#avengers#}: You get +Attack equal to the printed Attack of a Hero in the HQ.
 Cost: 7
 
 
 HN:Goliath
-Avengers
+{#avengers#}
 
 [i]Brilliant Biochemist/Massive Warrior[/i] (5 copies)
 [b]Divided[/b]
@@ -3390,18 +3393,18 @@ Cost: 8
 
 
 HN:Hercules
-Avengers
+{#avengers#}
 
 [i]Crowd Favorite[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Whenever you defeat a Villain this turn, rescue a Bystander.
+{#instinct#}: Whenever you defeat a Villain this turn, rescue a Bystander.
 Cost: 4
 [size=8][i]Nothing attracts fans like a Greek demigod of legend.[/i][/size]
 
 [i]Manly Dullard/Boy Genius[/i] (5 copies)
 [b]Divided[/b]
-[i]Manly Dullard (Hercules: Avengers)[/i]
+[i]Manly Dullard (Hercules: {#avengers#})[/i]
 {#Strength#}
 3 Attack
 To play this, you must discard a card from your hand.
@@ -3424,12 +3427,12 @@ Cost: 5
 0+ Recruit
 0+ Attack
 Rescue a Bystander. Then, you get +1 Attack for each Bystander in your Victory Pile.
-Avengers: You get +1 Recruit for each Bystander in your Victory Pile.
+{#avengers#}: You get +1 Recruit for each Bystander in your Victory Pile.
 Cost: 7
 
 
 HN:Hulkling
-Avengers
+{#avengers#}
 
 [i]Cellular Regeneration[/i] (5 copies)
 {#Strength#}
@@ -3471,7 +3474,7 @@ Cost: 8*
 
 
 HN:Luke Cage
-Avengers
+{#avengers#}
 
 [i]Take a Bullet for the Team[/i] (5 copies)
 {#Strength#}
@@ -3482,39 +3485,39 @@ Cost: 4
 
 [i]Cautious/Reckless[/i] (5 copies)
 [b]Divided[/b]
-[i]Cautious (Luke Cage: Avengers)[/i]
+[i]Cautious (Luke Cage: {#avengers#})[/i]
 {#Strength#}
 2 Attack
 Cost: 3
 -----------------
 [i]Reckless (Jessica Jones: Marvel Knights)[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3 Attack
 Gain a Wound.
 Cost: 3
 
 [i]Sweet Christmas[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3 Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Look at the top three cards of your deck. Discard them all or put them back in any order.
+{#instinct#}: Look at the top three cards of your deck. Discard them all or put them back in any order.
 Cost: 5
 
 [i]Unbreakable Skin[/i] (1 copy)
 {#Strength#}
 6 Attack
-Avengers: [b]Fortify[/b] the Wound Stack. While it's fortified, players can't gain Wounds. At the beginning of your next turn, put this card in your discard pile.
+{#avengers#}: [b]Fortify[/b] the Wound Stack. While it's fortified, players can't gain Wounds. At the beginning of your next turn, put this card in your discard pile.
 Cost: 8
 
 
 HN:Patriot
-Avengers
+{#avengers#}
 
 [i]Intuitive Tactician[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Attack
 You get +1 Attack for each Hero Name among your non-S.H.I.E.L.D. Heroes.
 Cost: 3
-[size=8][i]If Cap and Iron Man's Avengers destroy each other, the Young Avengers will be ready.[/i][/size]
+[size=8][i]If Cap and Iron Man's {#avengers#} destroy each other, the Young {#avengers#} will be ready.[/i][/size]
 
 [i]New Generation of Heroes[/i] (5 copies)
 {#Strength#}
@@ -3523,19 +3526,19 @@ Cost: 2
 
 [i]Incredible Effort/Effortless[/i] (3 copies)
 [b]Divided[/b]
-[i]Incredible Effort (Patriot: Avengers)[/i]
+[i]Incredible Effort (Patriot: {#avengers#})[/i]
 {#Covert#}
 1+ Attack
 {#Covert#}: You get +3 Attack
 Cost: 5
 -----------------
-[i]Effortless (Hawkeye: Avengers)[/i]
+[i]Effortless (Hawkeye: {#avengers#})[/i]
 {#Tech#}
 3 Recruit
 Cost: 5
 [size=8][i]Using Clint's original bow, Kate Bishop is bestowed the Hawkeye mantle.[/i][/size]
 
-[i]Lead the Young Avengers[/i] (1 copy)
+[i]Lead the Young {#avengers#}[/i] (1 copy)
 {#Tech#}
 3 Attack
 Reveal the top three cards of your deck. If you revealed at least three different Hero Names this way, draw those three cards. Otherwise, put them back in any order.
@@ -3543,7 +3546,7 @@ Cost: 8
 
 
 HN:Peter Parker
-Avengers/Spider Friends
+{#avengers#}/Spider Friends
 
 [i]Conflicted Loyalties[/i] (5 copies)
 {#Tech#}
@@ -3554,31 +3557,31 @@ Cost: 2
 [size=8][i]"I'll fight for the good guys! Wait, which side is that?"[/i][/size]
 
 [i]Spider-Man Unmasked[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1 Attack
 Gain a Sidekick.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Put that Sidekick on top of your deck.
+{#instinct#}: Put that Sidekick on top of your deck.
 Cost: 2
 [size=8][i]Obeying Iron Man, Spider-Man showed his face to the whole country...and lived to regret it.[/i][/size]
 
 [i]Protect My Family/Hot Bowl of Soup[/i] (3 copies)
 [b]Divided[/b]
-[i]Protect My Family (Peter Parker: Avengers)[/i]
+[i]Protect My Family (Peter Parker: {#avengers#})[/i]
 {#Tech#}
 1 Attack
 Rescue a Bystander.
 Cost: 2
 -----------------
 [i]Hot Bowl of Soup (Aunt May: Spider-Friends)[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1 Recruit
 You may KO a Wound from your hand or discard pile.
 Cost: 2
 
 [i]Reluctant Celebrity[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +1 Attack for each extra card you've drawn this turn.
+{#instinct#}: You get +1 Attack for each extra card you've drawn this turn.
 Cost: 2
 
 
@@ -3619,7 +3622,7 @@ Cost: 7
 
 
 HN:Stature
-Avengers
+{#avengers#}
 
 [i]Shrink to Nothing[/i] (5 copies)
 {#Tech#}
@@ -3632,14 +3635,14 @@ Cost: 2*
 
 [i]Crush Ants/Crush File Sizes[/i] (5 copies)
 [b]Divided[/b]
-[i]Crush Ants (Stature: Avengers)[/i]
+[i]Crush Ants (Stature: {#avengers#})[/i]
 {#Strength#}
 2 Attack
 {#size-changing#}: {#Strength#}
 {#Strength#}: Defeat a Villain that has 3 Attack or less.
 Cost: 5*
 -----------------
-[i]Crush File Sizes (Iron Lad: Avengers)[/i]
+[i]Crush File Sizes (Iron Lad: {#avengers#})[/i]
 {#Tech#}
 2 Recruit
 {#size-changing#}: {#Tech#}
@@ -3664,7 +3667,7 @@ Cost: 8*
 
 
 HN:Storm & Black Panther
-X-Men/Avengers
+X-Men/{#avengers#}
 
 [i]Gathering Rain Clouds/Gathering Clues[/i] (5 copies)
 [b]Divided[/b]
@@ -3674,10 +3677,10 @@ X-Men/Avengers
 {#ranged#}: Draw a card.
 Cost: 2
 -----------------
-[i]Gathering Clues (Black Panther: Avengers)[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+[i]Gathering Clues (Black Panther: {#avengers#})[/i]
+{#instinct#}
 1 Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Draw a card.
+{#instinct#}: Draw a card.
 Cost: 2
 
 [i]Lightning Strike/Pouncing Strike[/i] (5 copies)
@@ -3688,8 +3691,8 @@ Cost: 2
 Any Villain you fight on the Rooftops this turn gets -1 Attack.
 Cost: 3
 -----------------
-[i]Pouncing Strike (Black Panther: Avengers)[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+[i]Pouncing Strike (Black Panther: {#avengers#})[/i]
+{#instinct#}
 2 Recruit
 You may move a Villain to an adjacent empty city space.
 Cost: 3
@@ -3702,7 +3705,7 @@ Cost: 3
 {#ranged#}: You get +2 attack usable only against the Mastermind.
 Cost: 5
 -----------------
-[i]Tsunami of Justice (Black Panther: Avengers)[/i]
+[i]Tsunami of Justice (Black Panther: {#avengers#})[/i]
 {#Covert#}
 3 Attack
 {#Covert#}: You may KO a card from your hand or discard pile.
@@ -3718,27 +3721,27 @@ Cost: 7
 
 
 HN:Tigra
-Avengers
+{#avengers#}
 
 [i]Friendship/Ferocity[/i] (5 copies)
 [b]Divided[/b]
-[i]Friendship (Tigra: Avengers)[/i]
+[i]Friendship (Tigra: {#avengers#})[/i]
 {#Covert#}
 1 Recruit
 {#Covert#}: Gain a Sidekick.
 Cost:2
 -----------------
-[i]Ferocity (Tigra: Avengers)[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+[i]Ferocity (Tigra: {#avengers#})[/i]
+{#instinct#}
 1 Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Draw a card.
+{#instinct#}: Draw a card.
 Cost: 2
 
 [i]Supernatural Senses[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
 Look at the top card of your deck. Discard it or put it back.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR] [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You may KO the card you discarded this way.
+{#instinct#} {#instinct#}: You may KO the card you discarded this way.
 Cost: 3
 [size=8][i]Art contains a gun[/i][/size]
 
@@ -3753,12 +3756,12 @@ Cost: 5
 0+ Recruit
 0+ Attack
 Recruit a Hero from the HQ for free.
-Avengers: You get that Hero's printed Recruit and Attack.
+{#avengers#}: You get that Hero's printed Recruit and Attack.
 Cost: 7
 
 
 HN:Vision
-Avengers
+{#avengers#}
 
 [i]Solar Energy[/i] (5 copies)
 {#ranged#}
@@ -3777,14 +3780,14 @@ Cost: 4
 
 [i]Lighter than Air/Harder than Diamond[/i] (3 copies)
 [b]Divided[/b]
-[i]Lighter than Air (Vision: Avengers)[/i]
+[i]Lighter than Air (Vision: {#avengers#})[/i]
 {#ranged#}
 3 Recruit
 {#size-changing#}: {#ranged#}
 [b]Phasing[/b]
 Cost: 6*
 -----------------
-[i]Harder than Diamond (Vision: Avengers)[/i]
+[i]Harder than Diamond (Vision: {#avengers#})[/i]
 {#Tech#}
 3 Attack
 {#size-changing#}: {#Tech#}
@@ -3801,7 +3804,7 @@ Cost: 7
 
 
 HN:Wiccan
-Avengers
+{#avengers#}
 
 [i]Astral Projection[/i] (5 copies)
 {#ranged#}
@@ -3820,13 +3823,13 @@ Cost: 2
 
 [i]Supersonic Spells/Supersonic Speed[/i] (3 copies)
 [b]Divided[/b]
-[i]Supersonic Spells (Wiccan: Avengers)[/i]
+[i]Supersonic Spells (Wiccan: {#avengers#})[/i]
 {#ranged#}
 2 Attack
 {#ranged#}: Draw a card.
 Cost: 4
 -----------------
-[i]Supersonic Speed (Speed: Avengers)[/i]
+[i]Supersonic Speed (Speed: {#avengers#})[/i]
 {#Covert#}
 Draw a card.
 {#Covert#}: Draw another card.
@@ -3846,7 +3849,7 @@ HN:Howard the Duck
 (Unaffiliated)
 
 [i]Traveling Companion[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
 Reveal the top card of the Bystander Deck. If it's a special Bystander, rescue it. Otherwise, put it on the bottom of that deck.
 Cost: 3
@@ -3858,7 +3861,7 @@ Reveal the top card of your deck if it Costs 0 or has no team icon, draw it.
 Cost: 4
 
 [i]Right Place, Wrong Time[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3+ Attack
 You get +1 Attack for each other Hero you played this turn with no team icon.
 Cost: 5
@@ -3881,7 +3884,7 @@ You get +2 Attack usable only against villains in the Sewers or the Mastermind.
 Cost: 2
 
 [i]Burn the Fearful[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
 Choose a Villain or Mastermind. If there are no other Villains adjacent to it, it gets -1 Attack this turn.
 Cost: 4
@@ -3940,7 +3943,7 @@ HN:Deadpool
 Mercs for Money
 
 [i]It'll Grow Back[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 If you have a Wound in your hand or discard pile, KO it at you get +1 Attack. Otherwise, gain a Wound. These days, getting wounded mostly just pisses me off.
 2 1/2+ Attack
 Cost: 4
@@ -3964,7 +3967,7 @@ Cost: 5
 [i]Deadpool Rage![/i] (1 copy)
 {#Strength#}
 5 Attack
-[b]Excessive Violence:[/b] Take another turn after this one. But don't use this ability more than once per game - trilogies are stupid.
+{#excessive-violence#} Take another turn after this one. But don't use this ability more than once per game - trilogies are stupid.
 Cost: 7
 [size=8][i]Flavor: Hey Wolverine! I've had a breakthrough![/i][/size]
 
@@ -3982,7 +3985,7 @@ Cost: 4
 [i]Saturday Morning Harpoons[/i] (5 copies)
 {#ranged#}
 2 1/2 Attack
-[b]Excessive Violence:[/b] Rescue a Bystander.
+{#excessive-violence#} Rescue a Bystander.
 Cost: 3
 [size=8][i]Flavor: And they say cartoons are too violent these days.[/i][/size]
 
@@ -4012,7 +4015,7 @@ Cost: 2
 [size=8][i]Flavor: Two halves make a bullet whole. Also, you're a bulletwhole.[/i][/size]
 
 [i]Merc's Gotta Get Paid[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Excessive Violence: You get +1 Recruit.
 0+ Recruit
 2 1/2 Attack
@@ -4027,7 +4030,7 @@ Cost: 5
 [size=8][i]Flavor: Who can make me a gun that shoots our little guns?[/i][/size]
 
 [i]Cut in Half[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 1/2 Attack
 Choose a Villalin. Cut its Attack in half this turn.
 Mercs for Money: Cut the Mastermind's Attack in half for one fight this turn.
@@ -4056,7 +4059,7 @@ Cost: 2
 [i]Sting of the Stingray's Sting[/i] (3 copies)
 {#ranged#}
 3 Recruit
-[b]Excessive Violence:[/b] You may KO one of your cards or a card from your discard pile.
+{#excessive-violence#} You may KO one of your cards or a card from your discard pile.
 Cost: 5
 [size=8][i]Flavor: Wait, isn't shooting electricity underwater a terrible idea?[/i][/size]
 
@@ -4075,8 +4078,8 @@ HN:Angel Noir
 X-Men
 
 [i]Impetuous Dive[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +1 Attack.
+{#instinct#}
+{#instinct#}: You get +1 Attack.
 2+ Attack
 Cost: 3
 [size=8][i]Flavor: "Legends tell of a Cape of Mercury that enables a man to fly. Until I find it, I'll just jump and hope for the best."[/i][/size]
@@ -4091,7 +4094,7 @@ Cost: 4
 [size=8][i]Flavor: Specialties include: Medicine, Prisons, Detective Work, Advertising, and Everything Else.[/i][/size]
 
 [i]Identical Twin Brother[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 You get the printed Recruit and Attack of a Hero in the HQ. Then put that Hero on the bottom of the Hero Deck.
 0+ Recruit
 0+ Attack
@@ -4116,7 +4119,7 @@ Cost: 3
 [size=8][i]Flavor: A body balanced on a single muscle. A city balanced on a single man.[/i][/size]
 
 [i]Listen for Heartbeats[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Choose a number 1 or more. [b]Investigate[/b] for a card of that cost.
 2 Attack
 Cost: 4
@@ -4131,14 +4134,14 @@ Cost: 5
 [size=8][i]Flavor: "By the time I found them, they were already dead."[/i][/size]
 
 [i]Hitting Rock Bottom[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Discard a card from the top or bottom of your deck. If it costs 0, you get +1 Attack and repeat this process. If your deck runs out, stop.
 3+ Attack
 Cost: 7
 
 
 HN:Iron Man Noir
-Avengers
+{#avengers#}
 
 [i]Steam-Powered Arsenal[/i] (5 copies)
 {#ranged#}
@@ -4220,8 +4223,8 @@ Cost: 2
 [size=8][i]Flavor: Spiders from a cursed totem gave Peter Parker dark powers to match his shadowed mission.[/i][/size]
 
 [i]Solve the Crime[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: [b]Investigate[/b] the Bystander Stack for a Bystander and rescue it.
+{#instinct#}
+{#instinct#}: [b]Investigate[/b] the Bystander Stack for a Bystander and rescue it.
 2 Attack
 Cost: 2
 [size=8][i]Flavor: "Who murdered Uncle Ben?"[/i][/size]
@@ -4268,7 +4271,7 @@ Cost: 4
 Cost: 5
 
 [i]Mach 10[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Soaring Flight[/b]
 All Heroes you recruit this turn have [b]Soaring Flight[/b].
 [b]Lightshow[/b]: You get +2 Attack for each [b]Lightshow[/b] card you played this turn.
@@ -4345,9 +4348,9 @@ HN:Cannonball
 X-Men
 
 [i]Kinetic Blast Field[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Soaring Flight[/b]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +2 Attack
+{#instinct#}: You get +2 Attack
 1+ Attack
 Cost: 3
 
@@ -4384,7 +4387,7 @@ X-Men
 Cost: 3
 ------------
 [i]Unpredictable (Wolverine)[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Berserk[/b], [b]Berserk[/b]
 1+ Attack
 Cost: 3
@@ -4392,12 +4395,12 @@ Cost: 3
 [i]Fastball Special[/i] (5 copies)
 {#Strength#}
 [b]Soaring Flight[/b]
-[b]X-Gene[/b] [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: [b]Berserk[/b]
+[b]X-Gene[/b] {#instinct#}: [b]Berserk[/b]
 2+ Attack
 Cost: 4
 
 [i]Insane Disregard for Danger[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Berserk[/b]
 If you have a Wound in your hand or discard pile, KO it. Otherwise, gain a Wound.
 4+ Attack
@@ -4415,7 +4418,7 @@ HN:Dazzler
 X-Men
 
 [i]Convert Sound to Light[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Piercing Energy[/b]
 [b]Lightshow[/b]: You get +1 Piercing for each [b]Lightshow[/b] card you played this turn.
 1 Recruit
@@ -4490,7 +4493,7 @@ Draw a card.
 Cost: 4
 
 [i]Unexpected Explosion[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Lightshow[/b]: Look at the top card of your deck. If it costs 0, KO it.
 3 Attack
 Cost: 5
@@ -4507,7 +4510,7 @@ HN:Kitty Pryde
 X-Men
 
 [i]Intangible Qualities[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Put a card from the HQ on the bottom of the Hero deck. If that card had a Recruit icon, get +2 Recruit. If that card had an Attack icon, you get +2 Attack. (If both, get both.)
 0+ Recruit
 0+ Attack
@@ -4567,7 +4570,7 @@ Cost: 3
 [i]Channel Time/Channel Fire[/i] (3 copies)
 [b]Divided[/b]
 [i]Channel Time[/i]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Draw two cards.
 Cost: 5
 ------------
@@ -4589,7 +4592,7 @@ HN:Longshot
 X-Men
 
 [i]Fortune Favors the Bold[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 To play this card, you must put a card from your hand on top of your deck.
 3 Attack
 Cost: 3
@@ -4685,10 +4688,10 @@ HN:Psylocke
 X-Men
 
 [i]Psychic Knife[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Draw a card.
 [b]Piercing Energy[/b]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You get +1 Piercing.
+{#instinct#}: You get +1 Piercing.
 0+ Piercing
 Cost: 2
 
@@ -4707,7 +4710,7 @@ Cost: 5
 [size=8][i]Flavor: The focused totality of her powers.[/i][/size]
 
 [i]Telepathic Ninjutsu[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Piercing Energy[/b]
 Reveal the top card of the Hero Deck. The player of your choice puts it in their hand.
 3 Piercing
@@ -4719,13 +4722,13 @@ X-Men
 
 [i]Adamantium Footclaws[/i] (5 copies)
 {#Tech#}
-[b]X-Gene[/b] [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Draw a card.
+[b]X-Gene[/b] {#instinct#}: Draw a card.
 2 Attack
 Cost: 3
 [size=8][i]Flavor: Cloned from Wolverine's DNA, X-23 has extra Adamantium foot claws and almost as much savagery.[/i][/size]
 
 [i]Healing Factor Genome[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Berserk[/b]
 You may KO a Wound from your hand or discard pile.
 2+ Attack
@@ -4734,14 +4737,14 @@ Cost: 4
 [i]Bioengineered Assassin[/i] (3 copies)
 {#Covert#}
 [b]Berserk[/b]
-[b]X-Gene[/b] [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You may KO a card from your hand or discard pile.
+[b]X-Gene[/b] {#instinct#}: You may KO a card from your hand or discard pile.
 2+ Attack
 Cost: 6
 
 [i]Heir to Wolverine[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Berserk[/b], [b]Berserk[/b]
-[b]X-Gene[/b] [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Count the [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR] cards in your discard pile. [b]Berserk[/b] that many times.
+[b]X-Gene[/b] {#instinct#}: Count the {#instinct#} cards in your discard pile. [b]Berserk[/b] that many times.
 3+ Attack
 Cost: 7
 
@@ -4753,15 +4756,15 @@ HN:Happy Hogan
 (Unaffiliated)
 
 [i]Head of Security[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [COLOR=#CC0000][b]Coordinate[/b][/COLOR]
 KO all Wounds you gained this turn.
 2 Recruit
 Cost: 3
 
 [i]Watchful Eye[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: [b]Danger Sense 2[/b]. If this revealed any Master Strikes, KO those Strikes, then you may KO a card from your hand or discard pile.
+{#instinct#}
+{#instinct#}: [b]Danger Sense 2[/b]. If this revealed any Master Strikes, KO those Strikes, then you may KO a card from your hand or discard pile.
 2+ Attack
 Cost: 4
 
@@ -4774,7 +4777,7 @@ Cost: 5
 [size=8][i]Flavor: "Don't I look happy to you?"[/i][/size]
 
 [i]Asset Management[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 [b]Double Striker[/b]
 0+ Attack
 Cost: 5
@@ -4830,7 +4833,7 @@ Cost: 3
 Cost: 2
 
 [i]Liz[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Whenever you [COLOR=#CC0000][b]Coordinate[/b][/COLOR] a card to another player, you may reveal this to draw two cards instead of one.
 4 Recruit
 Cost: 6
@@ -4847,9 +4850,9 @@ HN:Peter Parker, Homecoming
 Spider Friends
 
 [i]Avenger in Training[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Wall-Crawl
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: [b]Danger Sense 1[/b]. If this revealed a Villain, you may fight it.
+{#instinct#}: [b]Danger Sense 1[/b]. If this revealed a Villain, you may fight it.
 2+ Attack
 Cost: 2
 
@@ -4877,7 +4880,7 @@ Cost: 2
 
 
 HN:Tony Stark
-Avengers
+{#avengers#}
 
 [i]Genius, Billionaire ...[/i] (5 copies)
 {#Tech#}
@@ -4897,7 +4900,7 @@ Cost: 4
 
 [i]Little Grey Area[/i] (3 copies)
 {#ranged#}
-Avengers: [b]Danger Sense 1[/b]. If this revealed a Villain, then Villains from that same Villain Group get -1 Attack this turn.
+{#avengers#}: [b]Danger Sense 1[/b]. If this revealed a Villain, then Villains from that same Villain Group get -1 Attack this turn.
 3+ Attack
 Cost: 5
 
@@ -4925,21 +4928,21 @@ Cost: 2
 [size=8][i]Flavor: And don't even get me started on flavor text.[/i][/size]
 
 [i]I'll Rescue You If I Feel Like It[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
 Reveal the top card of the Bystander Deck. If it's a Special Bystander, rescue it. Otherwise, put it on the bottom of that deck.
 Cost: 3
 
 [i]I Heard Keywords Are Powerful[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Attack
-{#size-changing#}: [BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Draw a card.
+{#size-changing#}: {#instinct#}
+{#instinct#}: Draw a card.
 [b]Cheering Crowds[/b]
 Cost: 6*
 
 [i]I'm the Best at Board Games[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 5 Attack
 [b]Demolish[/b] each other player. For each player that discards a card this way, draw a card.
 Cost: 7
@@ -5093,7 +5096,7 @@ HN:Amadeus Cho
 Champions
 
 [i]Extrapolate[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1 Recruit
 [b]Outwit[/b]: Draw a card.
 Cost: 2
@@ -5129,7 +5132,7 @@ Cost: 8
 
 
 HN:Bruce Banner
-Avengers
+{#avengers#}
 
 [i]Solve The Impossible[/i] (5 copies)
 {#Tech#}
@@ -5190,7 +5193,7 @@ Cost: 6
 [size=8][i]Her deeds earned the respect of all Sakaar.[/i][/size]
 
 [i]Dutiful Protector[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Double the Recruit you have.
 If there are at least 3 Heroes per player in the KO pile, [b]Transform[/b] this into Vengeful Destructor.
 Cost: 7
@@ -5215,7 +5218,7 @@ Cost: 3
 [size=8][i]Or honestly, go ahead. You're going to get smashed either way.[/i][/size]
 
 [i]Seize The Throne[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Attack
 [b]Smash 3[/b]
 Then, if you discarded at least two cards this turn, [b]Transform[/b] this into Hulk Is King and put it on top of your deck.
@@ -5274,13 +5277,13 @@ Warbound: You may KO a 0-cost card from any player's discard pile. If you KO a W
 Cost: 6
 
 [i]Blade Of The People[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 Choose one: Rescue three Bystanders, or defeat any Villain or Mastermind whose Attack is less than the number of Bystanders in your Victory Pile.
 Cost: 7
 
 
 HN:Hulkbuster Iron Man
-Avengers
+{#avengers#}
 
 [i]Pound For Pound[/i] (5 copies)
 {#Strength#}
@@ -5344,7 +5347,7 @@ Cost: 6
 
 [COLOR=#FF0000]Transformed[/COLOR]
 [i]Underworld Boss[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 0+ Attack
 Choose a Villain in your Victory Pile, You get + Attack equal to it's printed VP.
 Cost: 6
@@ -5401,20 +5404,20 @@ HN:Miek, The Unhived
 Warbound
 
 [i]This Bug Smashes You[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
 [b]Smash 1[/b]
 Cost: 3
 
 [i]Devouring Frenzy[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
 Look at the top card of your deck. Put it back on the top or bottom.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You may [b]Feast.[/b]
+{#instinct#}: You may [b]Feast.[/b]
 Cost: 4
 
 [i]Endless Appetite[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3 Attack
 Whenever a card is KO'd from your deck this turn, you may draw a card.
 Cost: 5
@@ -5504,7 +5507,7 @@ Cost: 5
 [size=8][i]A whole new generation of hunger.[/i][/size]
 
 [i]World Spanning Hunger[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 4+ Attack
 Look at the top card of your deck. Then [b]Feast[/b] up to three times. You get +2 Attack for each non-grey Hero that was KO'd from you deck this turn.
 Cost: 8
@@ -5521,7 +5524,7 @@ Cost: 3
 [size=8][i]Rick jones has impressive skills even before life transformed him into a variety of superheroes.[/i][/size]
 
 [i]Seek The Nega-Bands[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
 Reveal the top card of your deck. If it costs 3 or more, [b]Transform[/b] this into Captain Marvel.
 Cost: 4
@@ -5562,7 +5565,7 @@ Cost: 9
 
 
 HN:Sentry
-Avengers
+{#avengers#}
 
 [i]Agoraphobia[/i] (5 copies)
 {#Covert#}
@@ -5605,10 +5608,10 @@ Cost: 8
 
 
 HN:She-Hulk
-Avengers
+{#avengers#}
 
 [i]Hurl Legal Objections[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2 Recruit
 Once this turn, if you made at least 6 Recruit this turn, [b]Transform[/b] this into Hurl Trucks.
 Cost: 3
@@ -5644,7 +5647,7 @@ Cost: 8
 
 
 HN:Skaar, Son Of Hulk
-Avengers
+{#avengers#}
 
 [i]Anger Management[/i] (5 copies)
 {#Strength#}
@@ -5654,16 +5657,16 @@ Cost: 3
 [size=8][i]Sometimes the best way to control your anger is to obliterate the thing that made you mad.[/i][/size]
 
 [i]Scarred Past[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: [b]Wounded Fury.[/b]
+{#instinct#}: [b]Wounded Fury.[/b]
 Cost: 3
 [size=8][i]Getting hurt makes Skaar stronger. Growing up without parents gave him a lot to work with.[/i][/size]
 
 [i]Mood Swings[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 3 Recruit
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: You may gain a Wound. If you do, [b]Transform[/b] this into Raging Savage.
+{#instinct#}: You may gain a Wound. If you do, [b]Transform[/b] this into Raging Savage.
 Cost: 5
 [size=8][i]Skaar's moods swing wildly, from extremely angry to absolutely furious.[/i][/size]
 
@@ -5688,7 +5691,7 @@ ST:Marvel Studios Phase 1
 
 
 HN:Black Widow
-Avengers
+{#avengers#}
 
 [i]Dangerous Rescue[/i] (5 copies)
 {#Covert#}
@@ -5719,10 +5722,10 @@ Cost: 7
 
 
 HN:Captain America
-Avengers
+{#avengers#}
 
-[i]Avengers Assemble![/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+[i]{#avengers#} Assemble![/i] (5 copies)
+{#instinct#}
 0+ Recruit
 You get +1 Recruit for each color of Hero you have.
 Cost: 3
@@ -5743,15 +5746,15 @@ Cost: 6
 [i]A Day Unlike Any Other[/i] (1 copy)
 {#Covert#}
 3+ Attack
-Avengers: You get +3 Attack for each other Avengers Hero you played this turn.
+{#avengers#}: You get +3 Attack for each other {#avengers#} Hero you played this turn.
 Cost: 7
 
 
 HN:Hawkeye
-Avengers
+{#avengers#}
 
 [i]Quick Draw[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 1 Attack
 Draw a card.
 Cost: 3
@@ -5759,7 +5762,7 @@ Cost: 3
 [i]Team Player[/i] (5 copies)
 {#Tech#}
 2+ Attack
-Avengers: You get +1 Attack.
+{#avengers#}: You get +1 Attack.
 Cost: 4
 [size=8][i]"You line 'em up, and I'll knock 'em down..."[/i][/size]
 
@@ -5777,7 +5780,7 @@ Cost: 7
 
 
 HN:Hulk
-Avengers
+{#avengers#}
 
 [i]Growing Anger[/i] (5 copies)
 {#Strength#}
@@ -5786,7 +5789,7 @@ Avengers
 Cost: 3
 
 [i]Unstoppable Hulk[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
+{#instinct#}
 2+ Attack
 You may KO a Wound from your hand or discard pile. If you do, you get +2 Attack.
 Cost: 4
@@ -5805,7 +5808,7 @@ Cost: 8
 
 
 HN:Iron Man
-Avengers
+{#avengers#}
 
 [i]Endless Invention[/i] (5 copies)
 {#Tech#}
@@ -5862,7 +5865,7 @@ Cost: 8
 
 
 HN:Thor
-Avengers
+{#avengers#}
 
 [i]Odinson[/i] (5 copies)
 {#Strength#}
@@ -5891,8 +5894,6 @@ Cost: 6
 You can use Recruit as Attack this turn.
 Cost: 8
 
-
-
 ST:Ant-Man
 
 HN:Ant-Man
@@ -5903,7 +5904,8 @@ TN:Avengers
 CL:{#Tech#}
 AT:1
 CO:4*
-E:{#Size-changing#} {#Tech#}
+EF:
+{#Size-changing#} {#Tech#}
 Draw a card.
 
 QT:5
@@ -5912,7 +5914,8 @@ TN:Avengers
 CL:{#Tech#}
 AT:2
 CO:5*
-E:{#micro-size-changing#}: {#Tech#} {#Tech#} {#Tech#}
+EF:
+{#micro-size-changing#}: {#Tech#} {#Tech#} {#Tech#}
 {#Tech#}: You may discard a card. If you do, draw a card.
 
 QT:3
@@ -5921,8 +5924,9 @@ TN:Avengers
 CL:{#Strength#}
 AT:2+
 CO:6*
-E:{#Size-changing#} {#Tech#}
-You get +1 Attack for each extra card you drew this turn.
+EF:
+{#Size-changing#} {#Tech#}
+You get +1 {#Attack#} for each extra card you drew this turn.
 
 QT:1
 CN:Pym Particles
@@ -5930,9 +5934,9 @@ TN:Avengers
 CL:{#Tech#}
 AT:5
 CO:9*
-E:{#micro-size-changing#} {#Tech#} {#Tech#} {#Tech#} {#Tech#} {#Tech#}
+EF:
+{#micro-size-changing#} {#Tech#} {#Tech#} {#Tech#} {#Tech#} {#Tech#}
 A hero in the HQ without {#size-changing#} abilities gain {#size-changing#}: {#Tech#} this turn.
-
 
 HN:Wasp
 
@@ -5942,8 +5946,9 @@ TN:Avengers
 CL:{#Covert#}
 AT:1+
 CO:3
-E:{#micro-size-changing#}: {#Covert#} {#Covert#}
-{#Covert#}: You get +2 Attack.
+EF:
+{#micro-size-changing#}: {#Covert#} {#Covert#}
+{#Covert#}: You get +2 {#Attack#}.
 
 QT:5
 CN:Tiny Winged Justice
@@ -5951,7 +5956,8 @@ TN:Avengers
 CL:{#Covert#}
 RE:2
 CO:4*
-E:{#Size-changing#}: {#Covert#}
+EF:
+{#Size-changing#}: {#Covert#}
 {#Covert#}: Draw a card.
 
 QT:3
@@ -5960,8 +5966,9 @@ TN:Avengers
 CL:{#ranged#}
 AT:2+
 CO:6*
-E:{#Size-changing#}: {#Covert#}
-You get +1 Attack for each card you recruited this turn.
+EF:
+{#Size-changing#}: {#Covert#}
+You get +1 {#Attack#} for each card you recruited this turn.
 
 QT:1
 CN:Founding Avenger
@@ -5969,268 +5976,348 @@ TN:Avengers
 CL:{#Covert#}
 AT:4+
 CO:9*
-E:{#micro-size-changing#}: {#Covert#} {#Covert#} {#Covert#} {#Covert#} {#Covert#}
-Avengers: You get +1 Attack for each other Avengers card you played this turn.
+EF:
+{#micro-size-changing#}: {#Covert#} {#Covert#} {#Covert#} {#Covert#} {#Covert#}
+{#avengers#}: You get +1 {#Attack#} for each other {#avengers#} card you played this turn.
 
 HN:Jocasta
-Avengers
 
-[i]Creation of Ultron[/i] (5 copies)
-{#Tech#}
-2+ Attack
-{#Tech#}: You get [b]Empowered[/b] by {#Tech#}.
-Cost: 3
-[size=8][i]Former bride of Ultron. Programmed by Ant-Man with the memories of Wasp. Let's just say family reunions are complicated.[/i][/size]
+QT:5
+CN:Creation of Ultron
+CL:{#Tech#}7
+TN:Avengers
+AT:2+
+CO:3
+FL:Former bride of Ultron. Programmed by Ant-Man with the memories of Wasp. Let's just say family reunions are complicated.
+EF:
+{#Tech#}: You get {#empowered#} by {#Tech#}.
 
-[i]Reprocess[/i] (5 copies)
-{#ranged#}
-2+ Recruit
-If your discard pile is empty, you get +2 Recruit. Otherwise, shuffle your discard pile into your deck.
-Cost: 4
+QT:5
+CN:Reprocess
+CL:{#ranged#}
+TN:Avengers
+RE:2+
+CO:4
+EF:
+If your discard pile is empty, you get +2 {#Recruit#}. Otherwise, shuffle your discard pile into your deck.
 
-[i]Holographic Image Inducer[/i] (3 copies)
-{#Tech#}
-{#Size-changing#} {#Tech#}
+QT:3
+CN:Holographic Image Inducer
+CL:{#Tech#}
+TN:Avengers
+CO:6*
+FL:Holograms allow Jocasta to appear human, as she searches for her own humanity.
+EF:
+{#Size-changing#}: {#Tech#}
 Draw two cards.
-Cost: 6°
-[size=8][i]Holograms allow Jocasta to appear human, as she searches for her own humanity.[/i][/size]
 
-[i]Electromagnetic Eyebeams[/i] (1 copy)
-{#ranged#}
-5+ Attack
-If your discard pile is empty, you get +2 Attack. Otherwise shuffle your discard pile into your deck.
-Cost: 7
-[size=8][i]Art contains a gun[/i][/size]
-
+QT:1
+CN:Electromagnetic Eyebeams
+CL:{#ranged#}
+TN:Avengers
+AT:5+
+CO:7
+GU:true
+EF:
+If your discard pile is empty, you get +2 {#Attack#}. Otherwise shuffle your discard pile into your deck.
 
 HN:Wonder Man
-Avengers
 
-[i]One-Hit Wonder[/i] (5 copies)
-{#Strength#}
-0+ Attack
-Chose one: Draw a card, or you get [b]Empowered[/b] by {#Strength#}.
-Cost: 2
-[size=8][i]Arms dealer. Stunt man, Movie star. Master of Evil. Avenger. Maybe he'll star in his own biopic.[/i][/size]
+QT:5
+CN:One-Hit Wonder
+CL:{#Strength#}
+TN:Avengers
+AT:0+
+CO:2
+FL:Arms dealer. Stunt man, Movie star. Master of Evil. Avenger. Maybe he'll star in his own biopic.
+EF:
+Choose one: Draw a card, or you get {#empowered#} by {#Strength#}.
 
-[i]Ionic Energy[/i] (5 copies)
-{#ranged#}
-2+ Attack
+QT:5
+CN:Ionic Energy
+CL:{#ranged#}
+TN:Avengers
+AT:2+
+CO:4
+EF:
 You may put a card from the HQ on the bottom of the Hero Deck.
-{#ranged#}: You get [b]Empowered[/b] by {#ranged#}.
-Cost: 4
+{#ranged#}: You get {#empowered#} by {#ranged#}.
 
-[i]Absorb Ambient Power[/i] (3 copies)
-{#ranged#}
-0+ Recruit
-0+ Attack
-Put a card from the HQ on the bottom of the Hero Deck. If that card had a Recruit icon, you get +3 Recruit. If that card had an Attack icon, you get +3 Attack. (if both, get both).
-Cost: 5
+QT:3
+CN:Absorb Ambient Power
+CL:{#ranged#}
+TN:Avengers
+RE:0+
+AT:0+
+CO:5
+EF:
+Put a card from the HQ on the bottom of the Hero Deck. If that card had a {#Recruit#} icon, you get +3 {#Recruit#}. If that card had an {#Attack#} icon, you get +3 {#Attack#}. (if both, get both).
 
-[i]8th Wonder of the World[/i] (1 copy)
-{#Strength#}
-4+ Attack
-{#size-changing#} {#Strength#}
-Choose any number of cards from the HQ. Put them on the bottom of the Hero Deck. Then you get [b]Empowered[/b] by {#ranged#} and {#Strength#}.
-Cost: 8*
-
+QT:1
+CN:8th Wonder of the World
+CL:{#Strength#}
+TN:Avengers
+AT:4+
+CO:8*
+EF:
+{#size-changing#}: {#Strength#}
+Choose any number of cards from the HQ. Put them on the bottom of the Hero Deck. Then you get {#empowered#} by {#ranged#} and {#Strength#}.
 
 HN:Black Knight
-Avengers
 
-[i]Amulet of Avalon[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-0+ Attack
-You get [b]Empowered[/b] by the color of your choice.
-Cost: 3
-[size=8][i]The amulet summons whatever boon he chooses. Sword of Light, Shield of Night, Mystical Armor, or Flying Steed.[/i][/size]
+QT:5
+CN:Amulet of Avalon
+CL:{#instinct#}
+TN:Avengers
+AT:0+
+CO:3
+FL:The amulet summons whatever boon he chooses. Sword of Light, Shield of Night, Mystical Armor, or Flying Steed.
+EF:
+You get {#empowered#} by the color of your choice.
 
-[i]Defend the Weak[/i] (5 copies)
-{#Strength#}
-2 Recruit
+QT:5
+CN:Defend the Weak
+CL:{#Strength#}
+TN:Avengers
+RE:2
+CO:3
+GU:true
+EF:
 {#Strength#}: Return a 0-cost card from your discard pile to your hand.
-Cost: 3
-[size=8][i]Art contains a gun[/i][/size]
 
-[i]Flying Steed[/i] (3 copies)
-{#Covert#}
-3 Attack
+QT:3
+CN:Flying Steed
+CL:{#Covert#}
+TN:Avengers
+AT:3
+CO:6
+EF:
 When a Master Strike is played, before it takes effect, you may discard this card. If you do, draw three extra cards at the end of this turn.
-Cost: 6
 
-[i]The Ebony Blade[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-0+ Attack
-You get + Attack equal to the printed Attack of a Villain in your Victory Pile. (Mastermind tactics aren't Villains).
+QT:1
+CN:The Ebony Blade
+CL:{#instinct#}
+TN:Avengers
+AT:0+
+CO:7
+EF:
+You get + {#Attack#} equal to the printed {#Attack#} of a Villain in your Victory Pile. (Mastermind tactics aren't Villains).
 Cost: 7
-
-
 
 ST:Venom
 
-
 HN:Carnage
-Venomverse
 
-[i]Rending Claws[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-2 Attack
-[b]Excessive Violence:[/b] Draw a card.
-Cost: 3
-[size=8][i]One good gaping wound deserves another.[/i][/size]
+QT:5
+CN:Rending Claws
+CL:{#instinct#}
+TN:{#Venomverse#}
+AT:2
+CO:3
+FL:One good gaping wound deserves another.
+EF:
+{#excessive-violence#}: Draw a card.
 
-[i]Carnivore[/i] (5 copies)
-{#Strength#}
-0+ Recruit
-[b]Digest 4:[/b] Draw two cards.
-[b]Indigestion:[/b] You get +2 Recruit.
-Cost: 4
-[size=8][i]He'd be willing to eat a Groot salad too.[/i][/size]
+QT:5
+CN:Carnivore
+CL:{#Strength#}
+TN:{#Venomverse#}
+RE:0+
+FL:He'd be willing to eat a Groot salad too.
+CO:4
+EF:
+{#digest:4#}: Draw two cards.
+{#indigestion#} You get +2 {#Recruit#}.
 
-[i]Gruesome Feast[/i] (3 copies)
-{#Covert#}
-3 Attack
-[b]Excessive Violence:[/b]
-Reveal the top card of your deck. You may KO it.
-Cost: 6
+QT:3
+CN:Gruesome Feast
+CL:{#Covert#}
+TN:{#Venomverse#}
+AT:3
+CO:6
+EF:
+{#excessive-violence#}: Reveal the top card of your deck. You may KO it.
 
-[i]Feast or Famine[/i] (1 copy)
-{#Covert#}
-6 Attack
-[b]Excessive Violence:[/b] Reveal the top card of your deck. If it costs 0, KO it and you may repeat this process.
-Cost: 8
-
+QT:1
+CN:Feast or Famine
+CL:{#Covert#}
+TN:{#Venomverse#}
+AT:6
+CO:8
+EF:
+{#excessive-violence#}: Reveal the top card of your deck. If it costs 0, KO it and you may repeat this process.
 
 HN:Venom
-Venomverse
 
-[i]Devouring Drool[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-0+ Recruit
-0+ Attack
-[b]Digest 3:[/b] You get +2 Attack.
-[b]Indigestion:[/b] You get +2 Recruit.
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]: Instead, you get both.
-Cost: 3
+QT:5
+CN:Devouring Drool
+CL:{#instinct#}
+TN:{#Venomverse#}
+RE:0+
+AT:0+
+CO:3
+EF:
+{#digest:3#}: You get +2 {#Attack#}.
+{#indigestion#} You get +2 {#Recruit#}.
+{#instinct#}: Instead, you get both.
 
-[i]Razor Teeth[/i] (5 copies)
-{#Strength#}
-0+ Recruit
-2 Attack
-[b]Excessive Violence:[/b] You get +2 Recruit.
-Cost: 4
-[size=8][i]The face that launched a thousand nightmares.[/i][/size]
+QT:5
+CN:Razor Teeth
+CL:{#Strength#}
+TN:{#Venomverse#}
+RE:0+
+AT:2
+CO:4
+FL:The face that launched a thousand nightmares.
+EF:
+{#excessive-violence#}: You get +2 {#Recruit#}.
 
-[i]Symbiotic Adaptation[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-0+ Recruit
-0+ Attack
-[b]Choose one:[/b]
-- You get +1 Recruit for each other card you played this turn with a Recruit icon.
-- Or you get +1 Attack for each other card you played this turn with an Attack icon.
-Cost: 6
+QT:3
+CN:Symbiotic Adaptation
+CL:{#instinct#}
+TN:{#Venomverse#}
+CO:6
+RE:0+
+AT:0+
+EF:
+{#choose-one#}:
+- You get +1 {#Recruit#} for each other card you played this turn with a {#Recruit#} icon.
+- Or you get +1 {#Attack#} for each other card you played this turn with an {#Attack#} icon.
 
-[i]Insatiable Hunger[/i] (1 copy)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-0+ Recruit
-0+ Attack
-[b]Digest 8:[/b] KO a card from your Victory Pile. You get +6 Attack.
-[b]Indigestion:[/b] KO a card from your hand or discard pile. You get +6 Recruit.
-Venomverse Venomverse: Instead, do both.
-Cost: 8
-
+QT:1
+CN:Insatiable Hunger
+CL:{#instinct#}
+TN:{#Venomverse#}
+RE:0+
+AT:0+
+CO:8
+EF:
+{#digest:8#}: KO a card from your Victory Pile. You get +6 {#Attack#}.
+{#indigestion#}: KO a card from your hand or discard pile. You get +6 {#Recruit#}.
+{#Venomverse#} {#Venomverse#}: Instead, do both.
 
 HN:Venom Rocket
-Venomverse
 
-[i]Hungry for Action[/i] (5 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-2 Attack
-[b]Digest 3:[/b] You may discard a card. If you do, draw a card.
-Cost: 3
-[size=8][i]And thirsty for vengeance.[/i][/size]
-[size=8][i]Art contains a gun[/i][/size]
+QT:5
+CN:Hungry for Action
+CL:{#instinct#}
+TN:{#Venomverse#}
+AT:2
+GU:true
+FL:And thirsty for vengeance.
+EF:
+ {#digest:3#}: You may discard a card. If you do, draw a card.
 
-[i]Spring the Trap[/i] (5 copies)
-{#Tech#}
-2+ Attack
-If a Master Strike or Villain that has an Ambush ability was played this turn, you get +1 Attack.
-Cost: 4
-[size=8][i]No one expects a symbiote-bonded Rocket Raccoon.[/i][/size]
+QT:5
+CN:Spring the Trap
+CL:{#Tech#}
+TN:{#Venomverse#}
+AT:2+
+CO:4
+FL:No one expects a symbiote-bonded Rocket Raccoon.
+EF:
+If a Master Strike or Villain that has an Ambush ability was played this turn, you get +1 {#Attack#}.
 
-[i]Serious Overkill[/i] (3 copies)
-{#ranged#}
-2 Attack
-[b]Excessive Violence:[/b] You may KO a card from your hand or discard pile.
-Cost: 5
+QT:3
+CN:Serious Overkill
+CL:{#ranged#}
+TN:{#Venomverse#}
+AT:2
+CO:5
+EF:
+{#excessive-violence#} You may KO a card from your hand or discard pile.
 
-[i]Ultimate Survivor[/i] (1 copy)
-{#Tech#}
-5 Attack
+QT:1
+CN:Ultimate Survivor
+CL:{#Tech#}
+TN:{#Venomverse#}
+AT:5
+CO:7
+GU:true
+EF:
 When a Master Strike is played, before it takes effect, you may put Ultimate Survivor from your hand on top of your deck. If you do, you may put any card from the HQ into your hand.
-Cost: 7
-[size=8][i]Art contains a gun[/i][/size]
-
 
 HN:Venomized Dr. Strange
-Venomverse
 
-[i]Cauldron of the Cosmos[/i] (5 copies)
-{#ranged#}
-1 Recruit
-[b]Digest 2:[/b] Draw a card.
-Cost: 2
-[size=8][i]Through it, he scried other symbiotes across the dimensions.[/i][/size]
+QT:5
+CN:Cauldron of the Cosmos
+CL:{#ranged#}
+TN:{#Venomverse#}
+RE:1
+CO:2
+FL:Through it, he scried other symbiotes across the dimensions.
+EF:
+{#digest:2#}: Draw a card.
 
-[i]See Future Timelines[/i] (5 copies)
-{#ranged#}
-2+ Attack
-{#ranged#}: Reveal the top card of your deck. If it costs 0, discard it and you get +2 Attack.
-Cost: 4
+QT:5
+CN:See Future Timelines
+CL:{#ranged#}
+TN:{#Venomverse#}
+AT:2+
+CO:4
+EF:
+{#ranged#}: Reveal the top card of your deck. If it costs 0, discard it and you get +2 {#Attack#}.
 
-[i]Complete the Grand Ritual[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-4+ Attack
-If you played a 4-cost card and a 2-cost card this turn, you get +2 Attack.
-Cost: 6
+QT:3
+CN:Complete the Grand Ritual
+CL:{#instinct#}
+TN:{#Venomverse#}
+AT:4+
+CO:6
+EF:
+If you played a 4-cost card and a 2-cost card this turn, you get +2 {#Attack#}.
 
-[i]Crystal of Kadavus[/i] (1 copy)
-{#ranged#}
-4 Attack
+QT:1
+CN:Crystal of Kadavus
+CL:{#ranged#}
+TN:{#Venomverse#}
+AT:4
+CO:8
+EF:
 Reveal the top three cards of your deck. Draw one of them, discard one, and KO one.
-Venomverse Venomverse: Do this ability again.
-Cost: 8
-
+{#Venomverse#} {#Venomverse#}: Do this ability again.
 
 HN:Venompool
-Venomverse
 
-[i]Digest That Chimichanga[/i] (5 copies)
-{#Strength#}
-0+ Attack
-[b]Digest 2:[/b] You get +2 Attack.
-[b]Indigestion:[/b] "Rescue" a Bystander.
+QT:5
+CN:Digest That Chimichanga[/i]
+CL:{#Strength#}
+TN:{#Venomverse#}
+AT:0+
+CO:2
+EF:
+{#digest:2#}: You get +2 {#Attack#}.
+{#indigestion#}: "Rescue" a Bystander.
 {#Strength#}: Instead, you get both.
-Cost: 2
 
-[i]Shenanigans[/i] (5 copies)
-{#Tech#}
+QT:5
+CN:Shenanigans
+CL:{#Tech#}
+TN:{#Venomverse#}
+CO:3
+FL:"I mean some of those turns can just take forever."
+GU:YES
+EF:
 Draw two cards. But you can't draw any more cards until the end of this turn.
-Cost: 3
-[size=8][i]"I mean some of those turns can just take forever."[/i][/size]
-[size=8][i]Art contains a gun[/i][/size]
 
-[i]Can I Get a Little Gratitude[/i] (3 copies)
-[BGCOLOR=#CC9900][COLOR=#FFFFFF]Instinct[/COLOR][/BGCOLOR]
-3 Attack
+QT:3
+CN:Can I Get a Little Gratitude
+CL:{#Strength#}
+TN:{#Venomverse#}
+CL:{#instinct#}
+AT:3
+CO:5
+EF:
 Whenever you Rescue a Bystander this turn, do any "rescue" ability on it an extra time.
-[b]Excessive Violence:[/b] "Rescue" a Bystander.
-Cost: 5
+{#excessive-violence#}: "Rescue" a Bystander.
 
-[i]Play to the Crowd[/i] (1 copy)
-{#Strength#}
-4+ Attack
-[b]Digest 7:[/b] You get +1 Attack for each two Bystanders in your Victory Pile.
-[b]Indigestion:[/b] "Rescue" two Bystanders.
-Venomverse Venomverse: Instead, do both (in order).
-Cost: 7
+QT:1
+CN:Play to the Crowd
+CL:{#Strength#}
+TN:{#Venomverse#}
+AT:4+
+CO:7
+EF:
+{#Digest:7#}: You get +1 {#Attack#} for each two Bystanders in your Victory Pile.
+{#indigestion#}: "Rescue" two Bystanders.
+{#Venomverse#} {#Venomverse#}: Instead, do both (in order).

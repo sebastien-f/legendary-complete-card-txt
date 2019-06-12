@@ -4,27 +4,38 @@
 
 void Main()
 {
-	var path = @"D:\__SOURCES\legendary-complete-card-txt\2_heroes_and_allies.txt";
+	//var path = @"D:\__SOURCES\legendary-complete-card-txt\2_heroes_and_allies.txt";
+	var path = @"G:\__Code\legendary-complete-card-txt\2_heroes_and_allies.txt";
+	
 	var lines = File.ReadAllLines(path);
-	var l = new Line();
+
+	ProcessSet(FindSet("World War Hulk", lines)).Dump("WWH");
+	ProcessSet(FindSet("Ant-Man", lines)).Dump("Ant-Man");
+	ProcessSet(FindSet("Venom", lines)).Dump("Venom");
+}
+
+public IEnumerable<Line> ProcessSet(IEnumerable<string> lines)
+{
+	var l = new Line { CardType = "Hero" } ;
+	var Lines = new List<Line> { l };
 	var set = string.Empty;
 	var hero = string.Empty;
 	var inCard = false;
 	var inEffect = false;
-	var Lines = new List<Line> { l };
-	
-	foreach(var line in lines.Skip(5896))
+
+	foreach (var line in lines)
 	{
-		line.Dump();
+		$"-{line}-".Dump();
 		if (string.IsNullOrWhiteSpace(line.Trim()))
 		{
 			if (!inCard) continue;
-			if(inEffect)
+			if (inEffect)
 			{
 				l = new Line
 				{
 					Set = set,
 					GroupName = hero,
+					CardType = "Hero",
 				};
 
 				Lines.Add(l);
@@ -35,18 +46,18 @@ void Main()
 		}
 		else
 		{
-			if(inEffect) 
+			if (inEffect)
 			{
 				l.Text.Add(line);
-				continue;				
+				continue;
 			}
 		}
-		
-		var prefix = line.Substring(0,3);
+
+		var prefix = line.Substring(0, 3);
 		var data = line.Substring(3);
-		
-		
-		switch(prefix)
+
+
+		switch (prefix)
 		{
 			case "ST:":
 				l.Set = set = data;
@@ -81,8 +92,25 @@ void Main()
 				break;
 		}
 	}
+
+	return Lines;
+}
+
+public IEnumerable<string> FindSet(string setName, string[] lines) 
+{
+	var inSet = false;
+	var setLines = new List<string>();
+	foreach(var line in lines)
+	{
+		if (line.StartsWith($"ST:{setName}")) inSet = true;
+		else if (line.StartsWith("ST:") && inSet) break;
+		
+		if(inSet) setLines.Add(line);
+	}
 	
-	Lines.Dump();
+	if(string.IsNullOrWhiteSpace(setLines.Last())) setLines.RemoveAt(setLines.Count - 1);	
+	
+	return setLines;
 }
 
 // Define other methods and classes here
